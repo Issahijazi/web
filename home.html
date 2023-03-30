@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="website icon" type="png" href="source/logo.jpeg">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="home.js"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="home.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Nike</title>
+    
+</head>
+<body>
+
+ <header>
+    
+      
+    <a href="https://en.wikipedia.org/wiki/Nike,_Inc." target="_blank">
+        <img title="Info about nike" class="logo"  src="logo.jpeg" />
+    </a>
+    <nav class="navbar">
+       <ul id="mylinks">
+          <i class="fa fa-home" id="home-icon"></i><a  class="active"href="web2.html">Home</a>
+          <i class="fas fa-male" id="male"></i><a href="men.html">Men</a>
+          <i class="fas fa-female" id="female"></i><a href="womenpage.html">Women</a>
+       </ul>
+    </nav>
+    <div class="icon">
+         <i class="fas fa-search" title="search" id="search-btn" onclick="showbar();"></i>
+         <i class="far fa-heart" id="heart" title="like" aria-hidden="true" onclick="heart();" ></i> 
+         <i class="fas fa-user"  title="login now" onclick="show_form();"></i>
+         <i class="fas fa-bars"  id="menu" onclick="showmenu();"></i>
+    </div>
+    <form class="search-form">
+        <input type="search" id="search-bar" placeholder="What you looking for...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+ </header>
+ <!------------------------------------------------------------->
+ <div class="login_form">
+    <i class="fas fa-times" id="form-close" onclick="hideform();"></i>
+    <form>
+        <h3>Login</h3>
+        <input type="email" class="box" placeholder="Enter your email" required>
+        <input type="password" class="box" placeholder="Enter your password" required>
+        <input type="submit" value="Login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember" >remember me</label>
+        <p>forget password?<a href=""> Click here</a></p>
+        <p>don't have account?<a href="">Sign up</a></p>
+    </form>
+ </div>
+ <!---------------------------------------------------------------->
+ <!---------------------------------------------------------------->
+ <section class="home-page">
+    <div class="content" style="color:rgb(170, 170, 218);">
+      <p>just do it .</p>
+      <p>then do it again</p>
+      <p>FEEL IT TO BELIEVE IT</p>
+    </div>
+    <div class="image"></div>
+ </section>
+
+ 
+<!---------------------------------------------------------------->
+<!---------------------------------------------------------------->
+<section class="page2-4" style="color: white;">
+    <h1>trending now</h1>
+    <div class="container">
+       <div class="box">
+          <img src="m.jpeg" >
+          <div class="content" > <p style="color: white;" > matching sweatsuits</p></div> 
+       </div>
+       <div class="box">
+          <img src="a.jpeg" >
+          <div class="content"  ><p style="color: white;"> men's outfit</p></div> 
+       </div>                 
+       <div class="box">
+         <img src="b.jpeg" >
+         <div class="content"     ><p style="color: white;"> sportswear</p></div> 
+       </div>
+       <div class="box">
+         <img src="c.jpeg" >
+         <div class="content"   ><p style="color: white;"> women's clothing</p></div> 
+       </div>
+    </div> 
+ </section>
+ <!--------------------------------------------------------------------->
+ <!--------------------------------------------------------------------->
+ <section class="page3" style="color:white">
+    <p class="a">a</p>
+    <p class="i">i</p>
+    <p class="r">r</p>
+
+    <p class="f">f</p>
+    <p class="o">o</p>
+    <p class="r1">r</p>
+    <p class="c">c</p>
+    <p class="e1">e</p>
+    <p class="s">s</p>
+    <p class="n">n</p>
+    <p class="e2">e</p>
+    <p class="a1">a</p>
+   <p class="k">k</p>
+   <p class="e3">e</p>
+   <p class="r2">r</p>
+   <p class="s1">s</p>
+    
+    <video src="v.mp4" autoplay muted loop></video>
+
+ </section>
+ <!--------------------------------------------------------------------->
+ <!--------------------------------------------------------------------->
+ <section class="page2-4" style="color: white;">
+    <h1>Popular Right Now</h1>
+    <div class="container">
+       <div class="box">
+          <img src="d.jpeg" >
+          <div class="content" > <p style="color: white;" > the best nike workout clothes for the gym</p></div> 
+       </div>
+       <div class="box">
+          <img src="e.jpeg" >
+          <div class="content"  ><p style="color: white;"> nike sportswear</p></div> 
+       </div>                 
+       <div class="box">
+         <img src="f.jpeg" >
+         <div class="content"     ><p style="color: white;"> sportswear</p></div> 
+       </div>
+       <div class="box">
+         <img src="j.jpeg" >
+         <div class="content"   ><p style="color: white;">nike outfits</p></div> 
+       </div>
+    </div> 
+ </section>
+ <!--------------------------------------------------------------------->
+ <!--------------------------------------------------------------------->
+ <div class="footer">
+ <div  class="footer1" style="color:white">
+    <a href="https://www.nike.com/gift-cards">gift cards</a>
+    <a href="https://www.nike.com/promo-code">promotions</a>
+    <a href="https://www.nike.com/retail">find a store</a>
+    <a href="https://www.nike.com/email-signup">sign up for email</a>
+    <a href="https://accounts.nike.com/lookup?client_id=4fd2d5e7db76e0f85a6bb56721bd51df&redirect_uri=https://www.nike.com/auth/login&response_type=code&scope=openid%20nike.digital%20profile%20email%20phone%20flow%20country&state=9c49c471e2864d8ea9bdbeb4d885e9bd&code_challenge=K3SS0wZ4GJoK0j6VE1GAruhQjukmBfuAO4PMKbmkb1g&code_challenge_method=S256">become a member</a>
+    <a href="https://www.nike.com/stories">nike journal</a>
+    <a href="https://www.nike.com/#site-feedback">send us feedback</a>
+    <hr>
+    <details>
+        <summary>get help</summary>
+        <div class="g">
+        <a href="">order status</a>
+        <a href="">shipping and delivery</a>
+        <a href="">returns</a>
+        <a href="">payment options</a>
+        <a href="">gift card balence</a>
+        </div>
+    </details>
+    <details>
+        <summary>about nike</summary>
+        <div class="g">
+        <a href="">news</a>
+        <a href="">careers</a>
+        <a href="">investors</a>
+        <a href="">purpose</a>
+        <a href="">sustainability</a></div>
+    </details>
+    <hr>
+    </div><br>
+   <div class="footer2"> 
+    <a  target="_blank" title="facebook" style="color:white;" href="https://www.facebook.com/nike/?mibextid=ZbWKwL" class="fa fa-facebook"></a>
+    <a target="_blank" style="color:white;" title="twwitter" href="https://twitter.com/Nike?t=ov878yB9gI5rHUd97eB9tQ&s=09" class="fa fa-twitter"></a>
+    <a target="_blank" style="color:white;" title="instagram" href="https://instagram.com/nike?igshid=YmMyMTA2M2Y=" class="fa fa-instagram"></a></p><br>
+    <a target="_blank" style="color:white;" href="" class="fa fa-map-marker"> </a>united states
+   <br><br> <a style="color:white" href="#contactoo" id="contact" onclick="show_contact();">contact us</a>
+   <p style="color:rgb(195, 191, 191)">issa hijaze,hala damaj,wafaa bokaily,mohammad mestrah,mohammad hraibe ,Inc.all rights reserved</p></div>
+    
+
+ </div>
+ <div class="contact"  id="contactoo">
+      
+    <div class="row">
+        <form>
+            <div class="inputbox">
+                <input type="text" placeholder="name" required class="a1">
+                <input type="email" placeholder="email" required class="a2">
+            </div>
+            <div class="inputbox"> 
+                <input type="number" placeholder="number" required class="a3">
+                <input type="text" placeholder="subject" required class="a4">
+                
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="message" required></textarea>
+           <center>
+                <input type="submit"  class="bton" onclick="timesubmit();"> <br>
+                <a href="#contact" onclick="hidecontact();" class="bton" >cancel</a>
+           </center>
+        </form>
+    </div>
+    <!------------------------------------------------------------------------------------->
+  </div>
+</body>

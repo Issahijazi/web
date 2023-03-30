@@ -1,0 +1,1318 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-transform: capitalize;
+     text-decoration: none;
+     transition: all 0.5s linear; /*time of transition linear:vitesse necessaire */
+     border: none;  
+ }
+
+ html
+ {
+    font-size: 70%;
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+    background-color: black;
+ }
+
+ header
+{
+    
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background:white;
+    display:flex;
+    justify-content: space-between;
+    z-index:10000;
+    align-items: center;
+   color: black;
+   height: 50px;/*30*/
+   border:2px solid black;
+}
+header .logo
+{
+    width: 35px;
+    height: 25px;
+} 
+header .navbar ul a
+{
+    font-size: 15px;
+    color: #000;
+    margin-right:10px;
+}
+#male{
+    color:blue;
+    font-size:15px;
+    
+}
+
+#female{
+    color:rgb(205, 35, 145);
+    font-size: 15px;
+}
+header .navbar a:hover,
+header .navbar i:hover,
+header .icon i:hover
+{
+    color:blue;
+}
+.m , header .navbar ul a:hover{
+    background-color:rgb(173, 170, 170);
+    border-radius: 10px;
+    color: rgb(24, 24, 24);
+
+}
+#home-icon
+{
+    font-size: 15px;
+}
+header .icon i
+{
+    font-size: 15px;
+    cursor:pointer;
+    margin-right: 10px;
+}
+
+header .icon
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .search-form
+{
+    position: absolute;
+    top:100%;
+    left:0;
+    right: 0;
+    background:linear-gradient(white,rgb(205, 203, 203)) ;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    padding: 5px 10px;
+    font-size: 20px;
+    
+}
+
+header .search-form #search-bar
+{
+    width:100%;
+    padding: 10px;
+    font-size: 70%; 
+    border-radius: 10px ;
+    
+ }
+ 
+ header .search-form label
+ {
+     margin-left:5px
+ }
+ header .search-form label:hover
+ {
+     color:blueviolet
+ }
+ .shirts{
+    position:absolute;
+    font-size:30px;
+    top: 60px;
+    left:5px;
+    cursor:pointer;
+    text-decoration:dotted;
+    color:white;
+ }
+ .shirts:hover{
+    border:solid black;
+    border-radius:20px;
+    background:white;
+    color:black;
+ }
+ .menu1{
+    border:2px solid white;
+    position:absolute;
+    right:3px;
+    z-index:200;
+    background:black;
+ }
+ .purchases{
+    right:-200px;
+    color:white;
+    font-size:11px;
+    position:absolute;
+    top:50px;
+ }
+ #shirt{
+    right:-300px;
+    height:10px;
+    width:30px;
+    position:absolute;
+    top:80px;
+ }
+ .cl{
+    color:white;
+    position:absolute;
+    top:78px;
+    left:45px;
+ }
+ #shoes{
+    right:-200px;
+    height:10px;
+    width:30px;
+    position:absolute;
+    top:100px;
+ }
+ .cl1{
+    color:white;
+    position:absolute;
+    top:100px;
+    left:45px;
+ }
+ .exit{
+    position: absolute;
+    height:15px;
+    width:15px;
+    top:160px;
+    left:200px;
+    cursor:pointer;
+ }
+ #accessories{
+    right:-200px;
+    height:10px;
+    width:30px;
+    position:absolute;
+    top:120px;
+ }
+ .cl2{
+    color:white;
+    position:absolute;
+    top:120px;
+    left:45px;
+ }
+ #total{
+    right:-200px;
+    height:10px;
+    width:30px;
+    color:white;
+    position:absolute;
+    top:140px;
+ }
+ #cost{
+    right:-200px;
+    height:15px;
+    width:40px;
+    position:absolute;
+    top:140px;
+    color:white;
+    cursor:pointer;
+    background:grey;
+    border:1px solid white;
+    border-radius:10px;
+ }
+ .m21{
+   position:absolute;
+   background-image:url('m2.jpg');
+   background-size:cover;
+   height:110px;
+   width:110px;
+   top:100px;
+   left:5px;
+ }
+ .m21:hover{
+   border-radius:30px;
+   border: 2px solid white;
+ }
+ .m2{
+   height:110px;
+   width:110px;
+   cursor: pointer;
+ }
+.m2:hover{
+   border:2px solid white;
+   border-radius:30px;
+   height:110px;
+   width:90;
+}
+ .m22{
+   position:absolute;
+   background-image:url('m2.jpg');
+   background-size:cover;
+   height:110px;
+   width:110px;
+   top:100px;
+   left:130px;
+ }
+ .m22:hover{
+   border-radius:30px;
+   border: 2px solid white;
+ }
+ .m4{
+   height:110px;
+   width:110px;
+   cursor: pointer;
+ }
+ .m4:hover{
+   border:2px solid white;
+   border-radius:30px;
+   height:110px;
+   width:90;
+}
+.m23{
+   position:absolute;
+   background-image:url('m2.jpg');
+   background-size:cover;
+   height:110px;
+   width:110px;
+   top:100px;
+   left:255px;
+ }
+ .m23:hover{
+   border-radius:30px;
+   border: 2px solid white;
+ }
+ .m5{
+   height:110px;
+   width:110px;
+   cursor: pointer;
+ }
+ .m5:hover{
+   border:2px solid white;
+   border-radius:30px;
+   height:110px;
+   width:90;
+}
+.add1{
+   position:absolute;
+   color:white;
+   font-size:10px;
+   top:215px;
+   left:5px;
+   border:2px solid white;
+   width:120px;
+}
+#cart{
+   position:relative;
+   left:15px;
+   cursor:pointer;
+   top:2px;
+}
+#price{
+   position:relative;
+   top:1px;
+   left:8px;
+   height:15px;
+   width:15px;
+   font-size:8px;
+   cursor:pointer;
+}
+#price:hover{
+   width:23px;
+   height:20px;
+   font-size:12px;
+   color:white;
+   border:1px white dashed;
+   background:black;
+}
+.add2{
+   position:absolute;
+   color:white;
+   font-size:10px;
+   top:215px;
+   left:130px;
+   border:2px solid white;
+   width:120px;
+}
+#cart2{
+   position:relative;
+   left:15px;
+   cursor:pointer;
+   top:2px;
+}
+#price2{
+   position:relative;
+   top:1px;
+   left:8px;
+   height:15px;
+   width:15px;
+   font-size:8px;
+   cursor:pointer;
+}
+#price2:hover{
+   width:23px;
+   height:20px;
+   font-size:12px;
+   color:white;
+   border:1px white dashed;
+   background:black;
+}
+.add3{
+   position:absolute;
+   color:white;
+   font-size:10px;
+   top:215px;
+   left:255px;
+   border:2px solid white;
+   width:120px;
+}
+#cart3{
+   position:relative;
+   left:15px;
+   cursor:pointer;
+   top:2px;
+}
+#price3{
+   position:relative;
+   top:1px;
+   left:8px;
+   height:15px;
+   width:15px;
+   font-size:8px;
+   cursor:pointer;
+}
+#price3:hover{
+   width:23px;
+   height:20px;
+   font-size:12px;
+   color:white;
+   border:1px white dashed;
+   background:black;
+}
+.menu1 .input1{
+   background:black;
+   border: 2px white solid;
+   color:white;
+   font-size:7px;
+}
+.a{
+   position:absolute;
+   background-image:url('m2.jpg');
+   background-size:cover;
+   height:110px;
+   width:110px;
+   top:250px;
+   left:8px;
+}
+.a:hover{
+   border-radius:30px;
+   border: 2px solid white;
+}
+.aimg{
+   height:110px;
+   width:110px;
+   cursor: pointer;
+}
+.aimg:hover{
+   border:2px solid white;
+   border-radius:30px;
+   height:110px;
+   width:90;
+}
+.a1{
+   position:absolute;
+   background-image:url('m2.jpg');
+   background-size:cover;
+   height:110px;
+   width:110px;
+   top:250px;
+   left:130px;
+}
+.a1:hover{
+   border-radius:30px;
+   border: 2px solid white;
+}
+.images1{
+   position: relative;
+   top:20px;
+}
+.aimg1{
+   height:110px;
+   width:110px;
+   cursor: pointer;
+}
+.aimg1:hover{
+   border:2px solid white;
+   border-radius:30px;
+   height:110px;
+   width:90;
+}
+.a2{
+   position:absolute;
+   background-image:url('m2.jpg');
+   background-size:cover;
+   height:110px;
+   width:110px;
+   top:250px;
+   left:255px;
+}
+.a2:hover{
+   border-radius:30px;
+   border: 2px solid white;
+}
+.aimg2{
+   height:110px;
+   width:110px;
+   cursor: pointer;
+}
+.aimg2:hover{
+   border:2px solid white;
+   border-radius:30px;
+   height:110px;
+   width:90;
+}
+.add4{
+   position:absolute;
+   color:white;
+   font-size:10px;
+   top:370px;
+   left:255px;
+   border:2px solid white;
+   width:120px;
+}
+#cart4{
+   position:relative;
+   left:15px;
+   cursor:pointer;
+   top:2px;
+}
+#price4{
+   position:relative;
+   top:1px;
+   left:8px;
+   height:15px;
+   width:15px;
+   font-size:8px;
+   cursor:pointer;
+}
+#price4:hover{
+   width:23px;
+   height:20px;
+   font-size:12px;
+   color:white;
+   border:1px white dashed;
+   background:black;
+}
+.add5{
+   position:absolute;
+   color:white;
+   font-size:10px;
+   top:370px;
+   left:130px;
+   border:2px solid white;
+   width:120px;
+}
+#cart5{
+   position:relative;
+   left:15px;
+   cursor:pointer;
+   top:2px;
+}
+#price5{
+   position:relative;
+   top:1px;
+   left:8px;
+   height:15px;
+   width:15px;
+   font-size:8px;
+   cursor:pointer;
+}
+#price5:hover{
+   width:23px;
+   height:20px;
+   font-size:12px;
+   color:white;
+   border:1px white dashed;
+   background:black;
+}
+.add6{
+   position:absolute;
+   color:white;
+   font-size:10px;
+   top:370px;
+   left:8px;
+   border:2px solid white;
+   width:120px;
+}
+#cart6{
+   position:relative;
+   left:15px;
+   cursor:pointer;
+   top:2px;
+}
+#price6{
+   position:relative;
+   top:1px;
+   left:8px;
+   height:15px;
+   width:15px;
+   font-size:8px;
+   cursor:pointer;
+}
+#price6:hover{
+   width:23px;
+   height:20px;
+   font-size:12px;
+   color:white;
+   border:1px white dashed;
+   background:black;
+}
+.shoes{
+   position:absolute;
+    font-size:30px;
+    top: 460px;
+    left:5px;
+    cursor:pointer;
+    text-decoration:dotted;
+    color:white;
+}
+.shoes:hover{
+   border:solid black;
+    border-radius:20px;
+    background:white;
+    color:black;
+}
+.s{
+   position:absolute;
+   background-image:url('m2.jpg');
+   background-size:cover;
+   height:110px;
+   width:110px;
+   top:510px;
+   left:8px;
+}
+.s:hover{
+   border-radius:30px;
+   border: 2px solid white;
+}
+.aimg3{
+   height:110px;
+   width:110px;
+   cursor: pointer;
+}
+.aimg3:hover{
+   border:2px solid white;
+   border-radius:30px;
+   height:110px;
+   width:90;
+}
+.s1{
+   position:absolute;
+   background-image:url('m2.jpg');
+   background-size:cover;
+   height:110px;
+   width:110px;
+   top:510px;
+   left:130px;
+}
+.s1:hover{
+   border-radius:30px;
+   border: 2px solid white;
+}
+.aimg4{
+   height:110px;
+   width:110px;
+   cursor: pointer;
+}
+.aimg4:hover{
+   border:2px solid white;
+   border-radius:30px;
+   height:110px;
+   width:90;
+}
+.s2{
+   position:absolute;
+   background-image:url('m2.jpg');
+   background-size:cover;
+   height:110px;
+   width:110px;
+   top:510px;
+   left:255px;
+}
+.s2:hover{
+   border-radius:30px;
+   border: 2px solid white;
+}
+.aimg5{
+   height:110px;
+   width:110px;
+   cursor: pointer;
+}
+.aimg5:hover{
+   border:2px solid white;
+   border-radius:30px;
+   height:110px;
+   width:90;
+}
+.add7{
+   position:absolute;
+   color:white;
+   font-size:10px;
+   top:630px;
+   left:130px;
+   border:2px solid white;
+   width:120px;
+}
+#cart7{
+   position:relative;
+   left:15px;
+   cursor:pointer;
+   top:2px;
+}
+#price7{
+   position:relative;
+   top:1px;
+   left:8px;
+   height:15px;
+   width:20px;
+   font-size:8px;
+   cursor:pointer;
+}
+#price7:hover{
+   width:30px;
+   height:20px;
+   font-size:12px;
+   color:white;
+   border:1px white dashed;
+   background:black;
+}
+.add8{
+   position:absolute;
+   color:white;
+   font-size:10px;
+   top:630px;
+   left:7px;
+   border:2px solid white;
+   width:120px;
+}
+#cart8{
+   position:relative;
+   left:15px;
+   cursor:pointer;
+   top:2px;
+}
+#price8{
+   position:relative;
+   top:1px;
+   left:8px;
+   height:15px;
+   width:20px;
+   font-size:8px;
+   cursor:pointer;
+}
+#price8:hover{
+   width:30px;
+   height:20px;
+   font-size:12px;
+   color:white;
+   border:1px white dashed;
+   background:black;
+}
+.add9{
+   position:absolute;
+   color:white;
+   font-size:10px;
+   top:630px;
+   left:255px;
+   border:2px solid white;
+   width:120px;
+}
+#cart9{
+   position:relative;
+   left:15px;
+   cursor:pointer;
+   top:2px;
+}
+#price9{
+   position:relative;
+   top:1px;
+   left:8px;
+   height:15px;
+   width:20px;
+   font-size:8px;
+   cursor:pointer;
+}
+#price9:hover{
+   width:30px;
+   height:20px;
+   font-size:12px;
+   color:white;
+   border:1px white dashed;
+   background:black;
+}
+.s4{
+   position:absolute;
+   background-image:url('m2.jpg');
+   background-size:cover;
+   height:110px;
+   width:110px;
+   top:700px;
+   left:255px;
+}
+.s4:hover{
+   border-radius:30px;
+   border: 2px solid white;
+}
+.aimg6{
+   height:110px;
+   width:110px;
+   cursor: pointer;
+}
+.aimg6:hover{
+   border:2px solid white;
+   border-radius:30px;
+   height:110px;
+   width:90;
+}
+.s5{
+   position:absolute;
+   background-image:url('m2.jpg');
+   background-size:cover;
+   height:110px;
+   width:110px;
+   top:700px;
+   left:7px;
+}
+.s5:hover{
+   border-radius:30px;
+   border: 2px solid white;
+}
+.aimg7{
+   height:110px;
+   width:110px;
+   cursor: pointer;
+}
+.aimg7:hover{
+   border:2px solid white;
+   border-radius:30px;
+   height:110px;
+   width:90;
+}
+.s6{
+   position:absolute;
+   background-image:url('m2.jpg');
+   background-size:cover;
+   height:110px;
+   width:110px;
+   top:700px;
+   left:130px;
+}
+.s6:hover{
+   border-radius:30px;
+   border: 2px solid white;
+}
+.aimg8{
+   height:110px;
+   width:110px;
+   cursor: pointer;
+}
+.aimg8:hover{
+   border:2px solid white;
+   border-radius:30px;
+   height:110px;
+   width:90;
+}
+.add10{
+   position:absolute;
+   color:white;
+   font-size:10px;
+   top:820px;
+   left:255px;
+   border:2px solid white;
+   width:120px;
+}
+#cart10{
+   position:relative;
+   left:15px;
+   cursor:pointer;
+   top:2px;
+}
+#price10{
+   position:relative;
+   top:1px;
+   left:8px;
+   height:15px;
+   width:20px;
+   font-size:8px;
+   cursor:pointer;
+}
+#price10:hover{
+   width:30px;
+   height:20px;
+   font-size:12px;
+   color:white;
+   border:1px white dashed;
+   background:black;
+}
+.add11{
+   position:absolute;
+   color:white;
+   font-size:10px;
+   top:820px;
+   left:8px;
+   border:2px solid white;
+   width:120px;
+}
+#cart11{
+   position:relative;
+   left:15px;
+   cursor:pointer;
+   top:2px;
+}
+#price11{
+   position:relative;
+   top:1px;
+   left:8px;
+   height:15px;
+   width:20px;
+   font-size:8px;
+   cursor:pointer;
+}
+#price11:hover{
+   width:30px;
+   height:20px;
+   font-size:12px;
+   color:white;
+   border:1px white dashed;
+   background:black;
+}
+.add12{
+   position:absolute;
+   color:white;
+   font-size:10px;
+   top:820px;
+   left:130px;
+   border:2px solid white;
+   width:120px;
+}
+#cart12{
+   position:relative;
+   left:15px;
+   cursor:pointer;
+   top:2px;
+}
+#price12{
+   position:relative;
+   top:1px;
+   left:8px;
+   height:15px;
+   width:20px;
+   font-size:8px;
+   cursor:pointer;
+}
+#price12:hover{
+   width:30px;
+   height:20px;
+   font-size:12px;
+   color:white;
+   border:1px white dashed;
+   background:black;
+}
+.accessories1{
+   position:absolute;
+    font-size:30px;
+    top:900px;
+    left:5px;
+    cursor:pointer;
+    text-decoration:dotted;
+    color:white;
+}
+.accessories1:hover{
+   border:solid black;
+    border-radius:20px;
+    background:white;
+    color:black;
+}
+.b{
+   position:absolute;
+   background-image:url('m2.jpg');
+   background-size:cover;
+   height:110px;
+   width:110px;
+   top:950px;
+   left:130px;
+}
+.b:hover{
+   border-radius:30px;
+   border: 2px solid white;
+}
+.aimg9{
+   height:110px;
+   width:110px;
+   cursor: pointer;
+}
+.aimg9:hover{
+   border:2px solid white;
+   border-radius:30px;
+   height:110px;
+   width:90;
+}
+.b1{
+   position:absolute;
+   background-image:url('m2.jpg');
+   background-size:cover;
+   height:110px;
+   width:110px;
+   top:950px;
+   left:7px;
+}
+.b1:hover{
+   border-radius:30px;
+   border: 2px solid white;
+}
+.aimg10{
+   height:110px;
+   width:110px;
+   cursor: pointer;
+}
+.aimg10:hover{
+   border:2px solid white;
+   border-radius:30px;
+   height:110px;
+   width:90;
+}
+.b2{
+   position:absolute;
+   background-image:url('m2.jpg');
+   background-size:cover;
+   height:110px;
+   width:110px;
+   top:950px;
+   left:255px;
+}
+.b2:hover{
+   border-radius:30px;
+   border: 2px solid white;
+}
+.aimg11{
+   height:110px;
+   width:110px;
+   cursor: pointer;
+}
+.aimg11:hover{
+   border:2px solid white;
+   border-radius:30px;
+   height:110px;
+   width:90;
+}
+.add13{
+   position:absolute;
+   color:white;
+   font-size:10px;
+   top:1070px;
+   left:130px;
+   border:2px solid white;
+   width:120px;
+}
+#cart13{
+   position:relative;
+   left:15px;
+   cursor:pointer;
+   top:2px;
+}
+#price13{
+   position:relative;
+   top:1px;
+   left:8px;
+   height:15px;
+   width:20px;
+   font-size:8px;
+   cursor:pointer;
+}
+#price13:hover{
+   width:30px;
+   height:20px;
+   font-size:12px;
+   color:white;
+   border:1px white dashed;
+   background:black;
+}
+.add14{
+   position:absolute;
+   color:white;
+   font-size:10px;
+   top:1070px;
+   left:7px;
+   border:2px solid white;
+   width:120px;
+}
+#cart14{
+   position:relative;
+   left:15px;
+   cursor:pointer;
+   top:2px;
+}
+#price14{
+   position:relative;
+   top:1px;
+   left:8px;
+   height:15px;
+   width:20px;
+   font-size:8px;
+   cursor:pointer;
+}
+#price14:hover{
+   width:30px;
+   height:20px;
+   font-size:12px;
+   color:white;
+   border:1px white dashed;
+   background:black;
+}
+.add15{
+   position:absolute;
+   color:white;
+   font-size:10px;
+   top:1070px;
+   left:255px;
+   border:2px solid white;
+   width:120px;
+}
+#cart15{
+   position:relative;
+   left:15px;
+   cursor:pointer;
+   top:2px;
+}
+#price15{
+   position:relative;
+   top:1px;
+   left:8px;
+   height:15px;
+   width:20px;
+   font-size:8px;
+   cursor:pointer;
+}
+#price15:hover{
+   width:30px;
+   height:20px;
+   font-size:12px;
+   color:white;
+   border:1px white dashed;
+   background:black;
+}
+input{
+   text-align: center;
+}
+.b3{
+   position:absolute;
+   background-image:url('m2.jpg');
+   background-size:cover;
+   height:110px;
+   width:110px;
+   top:1135px;
+   left:255px;
+}
+.b3:hover{
+   border-radius:30px;
+   border: 2px solid white;
+}
+.aimg12{
+   height:110px;
+   width:110px;
+   cursor: pointer;
+}
+.aimg12:hover{
+   border:2px solid white;
+   border-radius:30px;
+   height:110px;
+   width:90;
+}
+.b4{
+   position:absolute;
+   background-image:url('m2.jpg');
+   background-size:cover;
+   height:110px;
+   width:110px;
+   top:1135px;
+   left:10px;
+}
+.b4:hover{
+   border-radius:30px;
+   border: 2px solid white;
+}
+.aimg13{
+   height:110px;
+   width:110px;
+   cursor: pointer;
+}
+.aimg13:hover{
+   border:2px solid white;
+   border-radius:30px;
+   height:110px;
+   width:90;
+}
+.b5{
+   position:absolute;
+   background-image:url('m2.jpg');
+   background-size:cover;
+   height:110px;
+   width:110px;
+   top:1135px;
+   left:135px;
+}
+.b5:hover{
+   border-radius:30px;
+   border: 2px solid white;
+}
+.aimg14{
+   height:110px;
+   width:110px;
+   cursor: pointer;
+}
+.aimg14:hover{
+   border:2px solid white;
+   border-radius:30px;
+   height:110px;
+   width:90;
+}
+.add16{
+   position:absolute;
+   color:white;
+   font-size:10px;
+   top:1255px;
+   left:255px;
+   border:2px solid white;
+   width:120px;
+}
+#cart16{
+   position:relative;
+   left:15px;
+   cursor:pointer;
+   top:2px;
+}
+#price16{
+   position:relative;
+   top:1px;
+   left:8px;
+   height:15px;
+   width:20px;
+   font-size:8px;
+   cursor:pointer;
+}
+#price16:hover{
+   width:30px;
+   height:20px;
+   font-size:12px;
+   color:white;
+   border:1px white dashed;
+   background:black;
+}
+.add17{
+   position:absolute;
+   color:white;
+   font-size:10px;
+   top:1255px;
+   left:7px;
+   border:2px solid white;
+   width:120px;
+}
+#cart17{
+   position:relative;
+   left:15px;
+   cursor:pointer;
+   top:2px;
+}
+#price17{
+   position:relative;
+   top:1px;
+   left:8px;
+   height:15px;
+   width:20px;
+   font-size:8px;
+   cursor:pointer;
+}
+#price17:hover{
+   width:30px;
+   height:20px;
+   font-size:12px;
+   color:white;
+   border:1px white dashed;
+   background:black;
+}
+.add18{
+   position:absolute;
+   color:white;
+   font-size:10px;
+   top:1255px;
+   left:130px;
+   border:2px solid white;
+   width:120px;
+}
+#cart18{
+   position:relative;
+   left:15px;
+   cursor:pointer;
+   top:2px;
+}
+#price18{
+   position:relative;
+   top:1px;
+   left:8px;
+   height:15px;
+   width:20px;
+   font-size:8px;
+   cursor:pointer;
+}
+#price18:hover{
+   width:30px;
+   height:20px;
+   font-size:12px;
+   color:white;
+   border:1px white dashed;
+   background:black;
+}
+.footer{
+   position: relative;
+   top:1400px;
+}
+.gift{
+   color:white;
+}
+.gift:hover{
+   color: grey;
+   font-size:15px;
+}
+.promotion{
+   color:white;
+}
+.promotion:hover{
+   color: grey;
+   font-size:15px;
+}
+.find{
+   color:white;
+}
+.find:hover{
+   color: grey;
+   font-size:15px;
+}
+.sign{
+   color:white;
+}
+.sign:hover{
+   color: grey;
+   font-size:15px;
+}
+.become{
+   color:white;
+}
+.become:hover{
+   color: grey;
+   font-size:15px;
+}
+.journal{
+   color:white;
+}
+.journal:hover{
+   color: grey;
+   font-size:15px;
+}
+.feedback{
+   color:white;
+}
+.feedback:hover{
+   color: grey;
+   font-size:15px;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="website icon" type="png" href="source/logo.jpeg">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="men.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Men</title>
+</head>
+<body>
+    <header>
+        <a href="https://en.wikipedia.org/wiki/Nike,_Inc." target="_blank">
+            <img title="Info about nike" class="logo"  src="logo.jpeg" />
+        </a>
+        <nav class="navbar">
+           <ul id="mylinks">
+              <i class="fa fa-home" id="home-icon"></i><a  class="active"href="web2.html">Home</a>
+              <i class="fas fa-male" id="male"></i><a href="#" class="m">Men</a>
+              <i class="fas fa-female" id="female"></i><a href="womenpage.html">Women</a>
+           </ul>
+        </nav>
+        <div class="icon">
+             <i class="fas fa-search" title="search" id="search-btn" onclick="showbar();"></i>
+             <i class="far fa-heart" id="heart" title="like" aria-hidden="true" onclick="heart();" ></i> 
+             <i class="fas fa-user"  title="login now" onclick="show_form();"></i>
+             <i class="fas fa-bars"  id="menu" onclick="showmenu();"></i>
+        </div>
+        <form class="search-form">
+            <input type="search" id="search-bar" placeholder="What you looking for...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+     </header>
+     <div class="shirts"><p>Shirts</p></div>
+<div class="menu1" id="menu1">
+    <p class="purchases">Purchases:</p>
+    <input type="text" value="0.00    $" class="input1" id="shirt"  readonly/><nav class="cl">Shirts</nav>
+    <input type="text" value="0.00    $" class="input1"  id="shoes" readonly/><nav class="cl1">Shoes</nav>
+    <input type="text" value="0.00    $" class="input1" id="accessories"  readonly/><nav class="cl2">accessories</nav>
+    <input type="text" value="0.00    $" class="input1" id="total" readonly/><input type="button" id="cost" value="Total" />
+    <img src="th.jpg" class="exit" id="exit" onclick="hidemenu()"/>
+    
+</div>
+<div class="images">
+    <div class="m21"><img src="m8.webp" class="m2"/></div>
+    <div class="m22"><img src="m6.jpeg" class="m4"></div>
+    <div class="m23"><img src="m5.jpg" class="m5"></div>
+    <div class="add1"><p class="add">ADD TO CART <input type="text" id="price" value="25$" readonly>  <i class='fas fa-shopping-cart' style='color: white' id="cart"></i></p> </div>
+    <div class="add2"><p>ADD TO CART <input type="text" id="price2" value="22$" readonly>  <i class='fas fa-shopping-cart' style='color: white' id="cart2"></i></p> </div>
+    <div class="add3"><p>ADD TO CART <input type="text" id="price3" value="45$" readonly>  <i class='fas fa-shopping-cart' style='color: white' id="cart3"></i></p> </div>
+</div>
+
+<div class="images1">
+<div class="a"><img src="a.webp" class="aimg"></div>
+<div class="a1"><img src="a1.avif" class="aimg1"></div>
+<div class="a2"><img src="a4.jpg" class="aimg2"></div>
+<div class="add4"><p>ADD TO CART <input type="text" id="price4" value="41$" readonly>  <i class='fas fa-shopping-cart' style='color: white' id="cart4"></i></p> </div>
+<div class="add5"><p>ADD TO CART <input type="text" id="price5" value="15$" readonly>  <i class='fas fa-shopping-cart' style='color: white' id="cart5"></i></p> </div>
+<div class="add6"><p>ADD TO CART <input type="text" id="price6" value="35$" readonly>  <i class='fas fa-shopping-cart' style='color: white' id="cart6"></i></p> </div>
+
+</div>
+<div class="shoes"><p>Shoes</p></div>
+<div class="images2">
+<div class="s"><img src="s.jpg" class="aimg3"/></div>
+<div class="s1"><img src="s1.webp" class="aimg4"/></div>
+<div class="s2"><img src="s3.webp" class="aimg5"/></div>
+<div class="add7"><p>ADD TO CART <input type="text" id="price7" value="111$" readonly>  <i class='fas fa-shopping-cart' style='color: white' id="cart7"></i></p> </div>
+<div class="add8"><p>ADD TO CART <input type="text" id="price8" value="150$" readonly>  <i class='fas fa-shopping-cart' style='color: white' id="cart8"></i></p> </div>
+<div class="add9"><p>ADD TO CART <input type="text" id="price9" value="129$" readonly>  <i class='fas fa-shopping-cart' style='color: white' id="cart9"></i></p> </div>
+</div>
+<div>
+    <div class="s4"><img src="s4.jpeg" class="aimg6"></div>
+    <div class="s5"><img src="s5.webp" class="aimg7"></div>
+    <div class="s6"><img src="s6.webp" class="aimg8"></div>
+    <div class="add10"><p>ADD TO CART <input type="text" id="price10" value="159$" readonly>  <i class='fas fa-shopping-cart' style='color: white' id="cart10"></i></p> </div>
+    <div class="add11"><p>ADD TO CART <input type="text" id="price11" value="229$" readonly>  <i class='fas fa-shopping-cart' style='color: white' id="cart11"></i></p> </div>
+    <div class="add12"><p>ADD TO CART <input type="text" id="price12" value="310$" readonly>  <i class='fas fa-shopping-cart' style='color: white' id="cart12"></i></p> </div>
+</div>
+<div class="accessories1"><p>Accessories</p></div>
+<div>
+    <div class="b"><img src="b.jpg" class="aimg9"></div>
+    <div class="b1"><img src="b1.jpg" class="aimg10"></div>
+    <div class="b2"><img src="b2.webp" class="aimg11"></div>
+    <div class="add13"><p>ADD TO CART <input type="text" id="price13" value="59$" readonly>  <i class='fas fa-shopping-cart' style='color: white' id="cart13"></i></p> </div>
+    <div class="add14"><p>ADD TO CART <input type="text" id="price14" value="29$" readonly>  <i class='fas fa-shopping-cart' style='color: white' id="cart14"></i></p> </div>
+    <div class="add15"><p>ADD TO CART <input type="text" id="price15" value="100$" readonly>  <i class='fas fa-shopping-cart' style='color: white' id="cart15"></i></p> </div>
+</div>
+
+<div>
+    <div class="b3"><img src="b3.jpg" class="aimg12"></div>
+    <div class="b4"><img src="b4.jpg" class="aimg13"></div>
+    <div class="b5"><img src="b5.jpg" class="aimg14"></div>
+    <div class="add16"><p>ADD TO CART <input type="text" id="price16" value="150$" readonly>  <i class='fas fa-shopping-cart' style='color: white' id="cart16"></i></p> </div>
+    <div class="add17"><p>ADD TO CART <input type="text" id="price17" value="26$" readonly>  <i class='fas fa-shopping-cart' style='color: white' id="cart17"></i></p> </div>
+    <div class="add18"><p>ADD TO CART <input type="text" id="price18" value="40$" readonly>  <i class='fas fa-shopping-cart' style='color: white' id="cart18"></i></p> </div>
+</div>
+<div class="footer">
+    <a href="https://www.nike.com/gift-cards" class="gift">gift cards</a>
+    <br>
+    <br>
+    <a href="https://www.nike.com/promo-code" class="promotion">promotions</a>
+    <br>
+    <br>
+    <a href="https://www.nike.com/retail" class="find">find a store</a>
+    <br>
+    <br>
+    <a href="https://www.nike.com/email-signup" class="sign">sign up for email</a>
+    <br>
+    <br>
+    <a href="https://accounts.nike.com/lookup?client_id=4fd2d5e7db76e0f85a6bb56721bd51df&redirect_uri=https://www.nike.com/auth/login&response_type=code&scope=openid%20nike.digital%20profile%20email%20phone%20flow%20country&state=9c49c471e2864d8ea9bdbeb4d885e9bd&code_challenge=K3SS0wZ4GJoK0j6VE1GAruhQjukmBfuAO4PMKbmkb1g&code_challenge_method=S256" class="become">become a member</a>
+    <br>
+    <br>
+    <a href="https://www.nike.com/stories" class="journal">nike journal</a>
+    <br>
+    <br>
+    <a href="https://www.nike.com/#site-feedback" class="feedback">send us feedback</a>
+
+    <details>
+        <summary>get help</summary>
+        <div class="g">
+        <a href="">order status</a>
+        <a href="">shipping and delivery</a>
+        <a href="">returns</a>
+        <a href="">payment options</a>
+        <a href="">gift card balence</a>
+        </div>
+    </details>
+    <details>
+        <summary>about nike</summary>
+        <div class="g">
+        <a href="">news</a>
+        <a href="">careers</a>
+        <a href="">investors</a>
+        <a href="">purpose</a>
+        <a href="">sustainability</a></div>
+    </details>
+    <div class="footer2"> 
+        <a  target="_blank" title="facebook" style="color:white;" href="https://www.facebook.com/nike/?mibextid=ZbWKwL" class="fa fa-facebook"></a>
+        <a target="_blank" style="color:white;" title="twwitter" href="https://twitter.com/Nike?t=ov878yB9gI5rHUd97eB9tQ&s=09" class="fa fa-twitter"></a>
+        <a target="_blank" style="color:white;" title="instagram" href="https://instagram.com/nike?igshid=YmMyMTA2M2Y=" class="fa fa-instagram"></a></p><br>
+        <a target="_blank" style="color:white;" href="" class="fa fa-map-marker"> united states </a>
+       <br><br> <a style="color:white" href="#contactoo" id="contact" onclick="show_contact();">contact us</a>
+       <p style="color:rgb(195, 191, 191)">issa hijaze,hala damaj,wafaa bokaily,mohammad mestrah,mohammad hraibe ,Inc.all rights reserved</p></div>
+        
+    
+     </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <script src="men.Js"></script>
+</body>
+</html>
